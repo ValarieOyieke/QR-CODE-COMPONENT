@@ -10,6 +10,7 @@ body {
     font-family: 'Outfit',sans-serif;
     font-size: 0.938rem;
     background-color: hsl(212, 45%, 89%);
+    max-height: 100vh;
 }
 
 /* LAYOUT */
@@ -21,9 +22,8 @@ body {
      transform: translate(-50%, -50%);
      width: 80%;
      max-width: 375px;
-     max-height: 100vh;
      background-color: hsl(0, 0%, 100%);
-     border-radius: 20px;
+     border-radius: 1.25rem;
      padding: 0.75em ;
      text-align: center;
 }
@@ -34,27 +34,26 @@ body {
 img {
     width: 250px;
     height: 250px;
-    border-radius: 15px;
+    border-radius: 0.938rem;
 }
 
 /* TYPOGRAPHY */
 
-h3 {
-    font-size: 1.25rem;
+h1 {
+    font-size: 1.28rem;
     font-weight: 700;
     color: hsl(218, 44%, 22%)
 }
 
 P {
     color: hsl(220, 15%, 55%);
-    margin-bottom: 30px;
+    margin-bottom: 1.875rem;
 }
 
   
 @media (min-width: 481px){
     .container{
         width: 70%;
-        max-width: 300px;
-        padding: 0.7em;
+        max-width: 280px;
     }
 }
